@@ -40,3 +40,9 @@
 #   If used in this way, they are equivalent. If you wish to do additional things
 #   with these regex however, things may not have the expected results
 #   For example, /abcde/i would differ from /[Aa][Bb][Cc]de/
+
+# 9. Challenge: write a regex that matches a string that looks like a simple
+#    negated character class range, e.g., '[^a-z]'. (Your answer should match
+#    precisely six characters.) Test it with these strings:
+
+/[\[][\^][a-z0-9][\-][a-z0-9][\]]/
